@@ -59,7 +59,7 @@ public:
         return ans;
     }
 
-    vector<vector<int>> threeSum(vector<int> &nums)
+    vector<vector<int>> threeSum_two_pointer(vector<int> &nums)
     {
         // two pointer, 76 ms 20 MB
         // 升序
@@ -103,6 +103,61 @@ public:
             }
         }
 
+        return ans;
+    }
+
+    vector<vector<int>> threeSum(vector<int> &nums)
+    {
+        // 56 ms	19.8 MB
+        sort(nums.begin(), nums.end());
+        vector<vector<int>> ans;
+
+        int len = nums.size();
+        for (int i = 0; i < len; i++)
+        {
+            // 剪枝，减少运行时间
+            if (nums[i] > 0)
+            {
+                break;
+            }
+
+            // 排除相同元素
+            if (i > 0 && nums[i] == nums[i - 1])
+            {
+                continue;
+            }
+
+            // 双指针
+            int left = i + 1;
+            int right = len - 1;
+            while (right > left)
+            {
+                int left_val = nums[left];
+                int right_val = nums[right];
+                int sum = nums[i] + left_val + right_val;
+
+                if (sum > 0)
+                {
+                    right--;
+                }
+                else if (sum < 0)
+                {
+                    left++;
+                }
+                else
+                {
+                    ans.push_back({nums[i], left_val, right_val});
+                    do
+                    {
+                        right--;
+                    } while (right > left && nums[right] == right_val);
+                    do
+                    {
+                        left++;
+                    } while (right > left && nums[left] == left_val);
+                }
+            }
+        }
         return ans;
     }
 };
