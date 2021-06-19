@@ -1,0 +1,9 @@
+module;
+export module ldc_math;
+
+namespace ldc{
+	export int add(int a, int b)
+	{
+		return a+b;
+	}
+}
