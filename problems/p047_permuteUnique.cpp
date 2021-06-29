@@ -89,12 +89,14 @@ public:
         used.clear();
         sort(nums.begin(), nums.end());
 
+        // 8 ms
         // for (int _ : nums)
         // {
         //     used.push_back(false);
         // }
         // backtracking_0(nums, 1);
 
+        // 0 ms
         vector<bool> used(nums.size(), false);
         backtracking_1(nums, used);
 
