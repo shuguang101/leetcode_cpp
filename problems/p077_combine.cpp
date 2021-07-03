@@ -15,6 +15,7 @@ private:
     vector<vector<int>> ans;
     vector<int> path;
 
+    // 20ms
     void backtracking(int n, int k, int startPos)
     {
         if (path.size() == k)
@@ -30,12 +31,29 @@ private:
         }
     }
 
+    // faster 8ms
+    void backtracking_prune(int n, int k, int startPos)
+    {
+        if (path.size() == k)
+        {
+            ans.push_back(path);
+            return;
+        }
+        for (int i = startPos; i <= n - (k - path.size()) + 1; i++)
+        {
+            path.push_back(i);
+            backtracking_prune(n, k, i + 1);
+            path.pop_back();
+        }
+    }
+
 public:
     vector<vector<int>> combine(int n, int k)
     {
         ans.clear();
         path.clear();
-        backtracking(n, k, 1);
+        // backtracking(n, k, 1);
+        backtracking_prune(n, k, 1);
         return ans;
     }
 };
