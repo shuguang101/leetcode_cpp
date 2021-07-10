@@ -19,6 +19,7 @@ add_compile_options(-fmodules-ts)
 
 # 子目录
 add_subdirectory(cpp20)
+add_subdirectory(other_problems)
 add_subdirectory(problems)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
