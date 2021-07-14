@@ -42,6 +42,7 @@ add_executable(p108_sortedArrayToBST p108_sortedArrayToBST.cpp)
 add_executable(p110_isBalanced p110_isBalanced.cpp)
 add_executable(p111_minDepth p111_minDepth.cpp)
 add_executable(p112_hasPathSum p112_hasPathSum.cpp)
+add_executable(p115_numDistinct p115_numDistinct.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
@@ -83,3 +84,4 @@ target_link_libraries(p106_buildTree PRIVATE range-v3 range-v3-meta range-v3::me
 target_link_libraries(p108_sortedArrayToBST PRIVATE pprint::pprint)
 target_link_libraries(p110_isBalanced PRIVATE pprint::pprint)
 target_link_libraries(p111_minDepth PRIVATE pprint::pprint)
+target_link_libraries(p115_numDistinct PRIVATE pprint::pprint)
