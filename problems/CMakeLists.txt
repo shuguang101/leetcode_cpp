@@ -43,6 +43,7 @@ add_executable(p110_isBalanced p110_isBalanced.cpp)
 add_executable(p111_minDepth p111_minDepth.cpp)
 add_executable(p112_hasPathSum p112_hasPathSum.cpp)
 add_executable(p115_numDistinct p115_numDistinct.cpp)
+add_executable(p121_maxProfit p121_maxProfit.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
