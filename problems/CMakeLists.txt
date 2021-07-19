@@ -47,6 +47,7 @@ add_executable(p121_maxProfit p121_maxProfit.cpp)
 add_executable(p122_maxProfit p122_maxProfit.cpp)
 add_executable(p123_maxProfit p123_maxProfit.cpp)
 add_executable(p131_partition p131_partition.cpp)
+add_executable(p134_canCompleteCircuit p134_canCompleteCircuit.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
