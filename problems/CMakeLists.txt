@@ -51,6 +51,7 @@ add_executable(p134_canCompleteCircuit p134_canCompleteCircuit.cpp)
 add_executable(p135_candy p135_candy.cpp)
 add_executable(p139_wordBreak p139_wordBreak.cpp)
 add_executable(p139_wordBreak_memoization p139_wordBreak_memoization.cpp)
+add_executable(p142_detectCycle p142_detectCycle.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
