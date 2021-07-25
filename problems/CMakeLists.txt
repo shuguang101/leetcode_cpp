@@ -57,6 +57,7 @@ add_executable(p150_evalRPN p150_evalRPN.cpp)
 add_executable(p151_reverseWords p151_reverseWords.cpp)
 add_executable(p160_getIntersectionNode p160_getIntersectionNode.cpp)
 add_executable(p198_rob p198_rob.cpp)
+add_executable(p202_isHappy p202_isHappy.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
