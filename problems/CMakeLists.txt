@@ -1,5 +1,6 @@
 find_package(pprint CONFIG REQUIRED)
-find_package(range-v3 CONFIG REQUIRED)    
+find_package(range-v3 CONFIG REQUIRED)
+find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)    
 
 add_executable(p001_two_sum p001_two_sum.cpp)
 add_executable(p015_3Sum p015_3Sum.cpp)
@@ -53,6 +54,7 @@ add_executable(p139_wordBreak p139_wordBreak.cpp)
 add_executable(p139_wordBreak_memoization p139_wordBreak_memoization.cpp)
 add_executable(p142_detectCycle p142_detectCycle.cpp)
 add_executable(p150_evalRPN p150_evalRPN.cpp)
+add_executable(p151_reverseWords p151_reverseWords.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
@@ -97,3 +99,6 @@ target_link_libraries(p111_minDepth PRIVATE pprint::pprint)
 target_link_libraries(p115_numDistinct PRIVATE pprint::pprint)
 target_link_libraries(p131_partition PRIVATE pprint::pprint)
 target_link_libraries(p135_candy PRIVATE pprint::pprint)
+target_link_libraries(p151_reverseWords PRIVATE range-v3 range-v3-meta range-v3::meta range-v3-concepts)
+# target_link_libraries(p151_reverseWords PRIVATE Qt5::Widgets)
+
