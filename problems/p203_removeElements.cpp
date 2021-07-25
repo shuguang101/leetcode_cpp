@@ -19,15 +19,14 @@ class Solution {
     ListNode* p = &fakeNode;
     while (p != nullptr) {
       if (p->next && p->next->val == val) {
-        ListNode *tmp = p->next;
+        ListNode* tmp = p->next;
         p->next = p->next->next;
-        // 释放内存
-        delete tmp;
+        // 不使用new创建不用释放内存
+        // delete tmp;
       } else {
         p = p->next;
       }
     }
-
     return fakeNode.next;
   }
 };
@@ -47,5 +46,5 @@ int main(int, char**) {
   a4.next = &a5;
 
   Solution s;
-  s.removeElements(&a0);
+  s.removeElements(&a0, 6);
 }
