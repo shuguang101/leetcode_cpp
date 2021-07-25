@@ -59,6 +59,7 @@ add_executable(p160_getIntersectionNode p160_getIntersectionNode.cpp)
 add_executable(p198_rob p198_rob.cpp)
 add_executable(p202_isHappy p202_isHappy.cpp)
 add_executable(p203_removeElements p203_removeElements.cpp)
+add_executable(p206_reverseList p206_reverseList.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
