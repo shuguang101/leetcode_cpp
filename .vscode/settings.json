@@ -62,6 +62,8 @@
         "stop_token": "cpp",
         "variant": "cpp",
         "ranges": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "qstring": "cpp",
+        "qapplication": "cpp"
     }
 }
