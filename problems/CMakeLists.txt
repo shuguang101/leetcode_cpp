@@ -62,6 +62,7 @@ add_executable(p203_removeElements p203_removeElements.cpp)
 add_executable(p206_reverseList p206_reverseList.cpp)
 add_executable(p209_minSubArrayLen p209_minSubArrayLen.cpp)
 add_executable(p213_rob p213_rob.cpp)
+add_executable(p216_combinationSum3 p216_combinationSum3.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
@@ -108,4 +109,6 @@ target_link_libraries(p131_partition PRIVATE pprint::pprint)
 target_link_libraries(p135_candy PRIVATE pprint::pprint)
 target_link_libraries(p151_reverseWords PRIVATE range-v3 range-v3-meta range-v3::meta range-v3-concepts)
 # target_link_libraries(p151_reverseWords PRIVATE Qt5::Widgets)
+
+target_link_libraries(p216_combinationSum3 PRIVATE pprint::pprint)
 
