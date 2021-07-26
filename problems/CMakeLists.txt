@@ -61,6 +61,7 @@ add_executable(p202_isHappy p202_isHappy.cpp)
 add_executable(p203_removeElements p203_removeElements.cpp)
 add_executable(p206_reverseList p206_reverseList.cpp)
 add_executable(p209_minSubArrayLen p209_minSubArrayLen.cpp)
+add_executable(p213_rob p213_rob.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
