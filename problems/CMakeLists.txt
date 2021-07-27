@@ -63,6 +63,7 @@ add_executable(p206_reverseList p206_reverseList.cpp)
 add_executable(p209_minSubArrayLen p209_minSubArrayLen.cpp)
 add_executable(p213_rob p213_rob.cpp)
 add_executable(p216_combinationSum3 p216_combinationSum3.cpp)
+add_executable(p235_lowestCommonAncestor p235_lowestCommonAncestor.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
