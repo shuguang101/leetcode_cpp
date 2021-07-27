@@ -1,6 +1,7 @@
 find_package(pprint CONFIG REQUIRED)
 find_package(range-v3 CONFIG REQUIRED)
 find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)    
+find_package(ICU COMPONENTS uc data io i18n REQUIRED)
 
 add_executable(p001_two_sum p001_two_sum.cpp)
 add_executable(p015_3Sum p015_3Sum.cpp)
@@ -114,4 +115,5 @@ target_link_libraries(p151_reverseWords PRIVATE range-v3 range-v3-meta range-v3:
 # target_link_libraries(p151_reverseWords PRIVATE Qt5::Widgets)
 
 target_link_libraries(p216_combinationSum3 PRIVATE pprint::pprint)
+target_link_libraries(p242_isAnagram ICU::uc ICU::data ICU::io ICU::i18n )
 

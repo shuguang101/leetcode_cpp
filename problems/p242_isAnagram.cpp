@@ -48,8 +48,4 @@ int main(int, char**) {
   string st("世界你好");
   cout << st.at(0) << endl;
   cout << st[1] << endl;
-
-  u32string stU8("世界你好");
-  
-//   cout << stU8.at(0) << endl;
 }
