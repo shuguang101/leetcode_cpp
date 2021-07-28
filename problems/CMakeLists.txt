@@ -68,6 +68,8 @@ add_executable(p235_lowestCommonAncestor p235_lowestCommonAncestor.cpp)
 add_executable(p239_maxSlidingWindow p239_maxSlidingWindow.cpp)
 add_executable(p242_isAnagram p242_isAnagram.cpp)
 add_executable(p257_binaryTreePaths p257_binaryTreePaths.cpp)
+add_executable(p279_numSquares p279_numSquares.cpp)
+add_executable(p238_moveZeroes p238_moveZeroes.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
