@@ -67,6 +67,7 @@ add_executable(p216_combinationSum3 p216_combinationSum3.cpp)
 add_executable(p235_lowestCommonAncestor p235_lowestCommonAncestor.cpp)
 add_executable(p239_maxSlidingWindow p239_maxSlidingWindow.cpp)
 add_executable(p242_isAnagram p242_isAnagram.cpp)
+add_executable(p257_binaryTreePaths p257_binaryTreePaths.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
