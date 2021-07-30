@@ -70,6 +70,7 @@ add_executable(p242_isAnagram p242_isAnagram.cpp)
 add_executable(p257_binaryTreePaths p257_binaryTreePaths.cpp)
 add_executable(p279_numSquares p279_numSquares.cpp)
 add_executable(p238_moveZeroes p238_moveZeroes.cpp)
+add_executable(p309_maxProfit p309_maxProfit.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
