@@ -72,6 +72,7 @@ add_executable(p279_numSquares p279_numSquares.cpp)
 add_executable(p238_moveZeroes p238_moveZeroes.cpp)
 add_executable(p309_maxProfit p309_maxProfit.cpp)
 add_executable(p322_coinChange p322_coinChange.cpp)
+add_executable(p332_findItinerary p332_findItinerary.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
@@ -120,5 +121,6 @@ target_link_libraries(p151_reverseWords PRIVATE range-v3 range-v3-meta range-v3:
 # target_link_libraries(p151_reverseWords PRIVATE Qt5::Widgets)
 
 target_link_libraries(p216_combinationSum3 PRIVATE pprint::pprint)
-target_link_libraries(p242_isAnagram ICU::uc ICU::data ICU::io ICU::i18n )
+target_link_libraries(p242_isAnagram ICU::uc ICU::data ICU::io ICU::i18n)
+target_link_libraries(p332_findItinerary PRIVATE pprint::pprint)
 

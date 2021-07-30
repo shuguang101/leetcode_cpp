@@ -43,6 +43,6 @@ int main(int, char**) {
   int amount = 11;
   vector<int> coins{1, 2, 5};
 
-  auto ans = s.coinChange_v3(coins, amount);
+  auto ans = s.coinChange_v2(coins, amount);
   cout << ans << endl;
 }
