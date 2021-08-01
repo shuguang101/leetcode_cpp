@@ -73,6 +73,7 @@ add_executable(p238_moveZeroes p238_moveZeroes.cpp)
 add_executable(p309_maxProfit p309_maxProfit.cpp)
 add_executable(p322_coinChange p322_coinChange.cpp)
 add_executable(p332_findItinerary p332_findItinerary.cpp)
+add_executable(p334_integerBreak p334_integerBreak.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
