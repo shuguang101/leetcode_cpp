@@ -78,6 +78,7 @@ add_executable(p347_topKFrequent p347_topKFrequent.cpp)
 add_executable(p349_intersection p349_intersection.cpp)
 add_executable(p376_wiggleMaxLength p376_wiggleMaxLength.cpp)
 add_executable(p377_combinationSum4 p377_combinationSum4.cpp)
+add_executable(p383_canConstruct p383_canConstruct.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
