@@ -80,6 +80,7 @@ add_executable(p376_wiggleMaxLength p376_wiggleMaxLength.cpp)
 add_executable(p377_combinationSum4 p377_combinationSum4.cpp)
 add_executable(p383_canConstruct p383_canConstruct.cpp)
 add_executable(p392_isSubsequence p392_isSubsequence.cpp)
+add_executable(p404_sumOfLeftLeaves p404_sumOfLeftLeaves.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
