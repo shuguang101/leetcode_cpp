@@ -81,6 +81,7 @@ add_executable(p377_combinationSum4 p377_combinationSum4.cpp)
 add_executable(p383_canConstruct p383_canConstruct.cpp)
 add_executable(p392_isSubsequence p392_isSubsequence.cpp)
 add_executable(p404_sumOfLeftLeaves p404_sumOfLeftLeaves.cpp)
+add_executable(p406_reconstructQueue p406_reconstructQueue.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
@@ -131,4 +132,5 @@ target_link_libraries(p151_reverseWords PRIVATE range-v3 range-v3-meta range-v3:
 target_link_libraries(p216_combinationSum3 PRIVATE pprint::pprint)
 target_link_libraries(p242_isAnagram ICU::uc ICU::data ICU::io ICU::i18n)
 target_link_libraries(p332_findItinerary PRIVATE pprint::pprint)
+target_link_libraries(p406_reconstructQueue PRIVATE pprint::pprint)
 

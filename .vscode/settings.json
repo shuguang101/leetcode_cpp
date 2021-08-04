@@ -64,6 +64,7 @@
         "ranges": "cpp",
         "regex": "cpp",
         "qstring": "cpp",
-        "qapplication": "cpp"
+        "qapplication": "cpp",
+        "bitset": "cpp"
     }
 }
