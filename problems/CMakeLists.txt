@@ -85,6 +85,7 @@ add_executable(p406_reconstructQueue p406_reconstructQueue.cpp)
 add_executable(p455_findContentChildren p455_findContentChildren.cpp)
 add_executable(p416_canPartition p416_canPartition.cpp)
 add_executable(p435_eraseOverlapIntervals p435_eraseOverlapIntervals.cpp)
+add_executable(p450_deleteNode p450_deleteNode.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
