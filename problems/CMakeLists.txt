@@ -87,6 +87,7 @@ add_executable(p416_canPartition p416_canPartition.cpp)
 add_executable(p435_eraseOverlapIntervals p435_eraseOverlapIntervals.cpp)
 add_executable(p450_deleteNode p450_deleteNode.cpp)
 add_executable(p452_findMinArrowShots p452_findMinArrowShots.cpp)
+add_executable(p454_fourSumCount p454_fourSumCount.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
