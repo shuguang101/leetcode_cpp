@@ -23,6 +23,7 @@ class Solution {
     }
 
     return ans;
-  };
+  }
+};
 
-  int main(int, char**) {}
+int main(int, char**) {}
