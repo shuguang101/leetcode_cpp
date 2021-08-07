@@ -10,6 +10,7 @@ add_executable(thread_ref_local_var thread_ref_local_var.cpp)
 add_executable(vector_range_constructor vector_range_constructor.cpp)
 add_executable(ranges_codes ranges_codes.cpp)
 add_executable(icu_unicode_char icu_unicode_char.cpp)
+add_executable(ArrMemsetVSArrInit ArrMemsetVSArrInit.cpp)
 
 target_link_libraries(hello_cpp20 PRIVATE fmt::fmt-header-only)
 target_link_libraries(hello_cpp20 PRIVATE pprint::pprint)
