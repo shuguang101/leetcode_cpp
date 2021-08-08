@@ -92,6 +92,7 @@ add_executable(p459_repeatedSubstringPattern p459_repeatedSubstringPattern.cpp)
 add_executable(p463_islandPerimeter p463_islandPerimeter.cpp)
 add_executable(p474_findMaxForm p474_findMaxForm.cpp)
 add_executable(p491_findSubsequences p491_findSubsequences.cpp)
+add_executable(p494_findTargetSumWays p494_findTargetSumWays.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
