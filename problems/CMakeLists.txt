@@ -96,6 +96,7 @@ add_executable(p494_findTargetSumWays p494_findTargetSumWays.cpp)
 add_executable(p496_nextGreaterElement p496_nextGreaterElement.cpp)
 add_executable(p501_findMode p501_findMode.cpp)
 add_executable(p503_nextGreaterElements p503_nextGreaterElements.cpp)
+add_executable(p509_fib p509_fib.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
