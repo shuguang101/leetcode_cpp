@@ -95,6 +95,7 @@ add_executable(p491_findSubsequences p491_findSubsequences.cpp)
 add_executable(p494_findTargetSumWays p494_findTargetSumWays.cpp)
 add_executable(p496_nextGreaterElement p496_nextGreaterElement.cpp)
 add_executable(p501_findMode p501_findMode.cpp)
+add_executable(p503_nextGreaterElements p503_nextGreaterElements.cpp)
 
 target_link_libraries(p015_3Sum PRIVATE pprint::pprint)
 target_link_libraries(p017_phone_number PRIVATE pprint::pprint)
@@ -148,4 +149,5 @@ target_link_libraries(p332_findItinerary PRIVATE pprint::pprint)
 target_link_libraries(p406_reconstructQueue PRIVATE pprint::pprint)
 target_link_libraries(p491_findSubsequences PRIVATE pprint::pprint)
 target_link_libraries(p501_findMode PRIVATE pprint::pprint)
+target_link_libraries(p503_nextGreaterElements PRIVATE pprint::pprint)
 
